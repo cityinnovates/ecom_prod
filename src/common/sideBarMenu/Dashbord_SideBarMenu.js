@@ -18,27 +18,24 @@ const Dashbord_SideBarMenu = () => {
           <nav className="mt-3">
             <ul className="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
               <li className="nav-item"> 
-                 <Link to='/'>
-                      <a className="nav-link">
+                 <Link to='/' className="nav-link">
                           <i className="nav-icon fa fa-home" />
                           <p>Home</p>
-                      </a>
                   </Link>
               </li>
               
               <li className="nav-item">
-                  <Link to='/product_builder'>
-                      <a className="nav-link">
+                  <Link to='/product_builder' className="nav-link">
                         <i className="nav-icon fa fa-product-hunt" />
                         <p>Products</p>
-                     </a>
                   </Link>
               </li>
               <li className="nav-item">
-                  <a href='#' className="nav-link" >
+                <Link to='/manage/order'>
                       <i className="nav-icon fa fa-shopping-bag" />
                       <p>Orders</p>
-                  </a>
+                </Link> 
+                
               </li>
               <li className="nav-item">
                 <a href='#' className="nav-link">

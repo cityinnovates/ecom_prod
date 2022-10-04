@@ -1,10 +1,12 @@
 import './App.css';
+import React from 'react';
 import Dashbord_Header from './common/header/Dashbord_Header';
 import Dashbord_SideBarMenu from './common/sideBarMenu/Dashbord_SideBarMenu';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import HomePageContainer from './pages/homepage/HomePageContainer';
 import ProductBuilder from './pages/product/ProductBuilder';
-import React from 'react';
+import ManageStore from './pages/orders/ManageStore';
+
 
 function App() {
 
@@ -19,6 +21,7 @@ function App() {
                 <Routes>
                   <Route path='/' element={<HomePageContainer/>}/>
                   <Route path='/product_builder' element={<ProductBuilder/>}/>
+                  <Route path='/manage/order' element={<ManageStore/>}/>
                 </Routes>
             </BrowserRouter>
       </div>
