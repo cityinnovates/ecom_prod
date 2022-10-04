@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-// Testing
+
 
 const ManageStore = () => {
     return (
