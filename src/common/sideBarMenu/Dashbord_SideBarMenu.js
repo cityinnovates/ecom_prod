@@ -9,7 +9,7 @@ const Dashbord_SideBarMenu = () => {
       <aside className="main-sidebar sidebar-light-primary elevation-4">
         {/* Brand Logo */}
           <a href="#" className="brand-link">
-          <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
+          <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
           <span className="brand-text font-weight-light">Ecom Prod Web</span>
         </a>
       
@@ -31,11 +31,11 @@ const Dashbord_SideBarMenu = () => {
                   </Link>
               </li>
               <li className="nav-item">
-                <Link to='/manage/order'>
+                <Link to='/manage/order' className="nav-link">
                       <i className="nav-icon fa fa-shopping-bag" />
                       <p>Orders</p>
                 </Link> 
-                
+
               </li>
               <li className="nav-item">
                 <a href='#' className="nav-link">
