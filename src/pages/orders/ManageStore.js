@@ -2,6 +2,7 @@
 import React from 'react'
 
 //test commit
+// second test commit
 
 const ManageStore = () => {
     return (
