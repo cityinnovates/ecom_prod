@@ -33,14 +33,23 @@ const ManageStore = () => {
                     </div>
                     
                     <div className='row p-5'>
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-                        <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
-
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                        <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
-
-                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                        <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+                        <div classname="col-md-6">
+                            <div className="btn btn-outline-light">
+                                <a className="text-secondary" href='#'>
+                                Store orders
+                                </a>
+                            </div>
+                            <div className="btn btn-outline-light">
+                                <a className="text-secondary" href='#'>
+                                Domestic orders
+                                </a>
+                            </div>
+                            <div className="btn btn-outline-light">
+                                <a className="" href='#'>
+                                International orders
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
