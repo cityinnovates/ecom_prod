@@ -1,12 +1,16 @@
 
 import React from 'react'
 
+//test commit
+// second test commit
+// third commit.....
+
 const ManageStore = () => {
     return (
         <React.Fragment>
             <div className="content-wrapper">
                 <div className="container">
-                     {/* manage orders */}
+                    {/* manage orders */}
                     <div className="content-header">
                         <div className="row p-5">
                             <div className="col-md-4">
@@ -29,15 +33,14 @@ const ManageStore = () => {
                     </div>
                     
                     <div className='row p-5'>
-                        <div classname="col-md-6">
-                            <input type="radio" className="btn-check" name="btnradio" id="btnradio1" autoComplete="off" />
-                            <label className="btn btn-outline-light" htmlFor="btnradio1">Store orders</label>
-                            <input type="radio" className="btn-check" name="btnradio" id="btnradio2" autoComplete="off" />
-                            <label className="btn btn-outline-light" htmlFor="btnradio2">Domestic orders</label>
-                            <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autoComplete="off" />
-                            <label className="btn btn-outline-light" htmlFor="btnradio3">International orders</label>
-                        </div>
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
+                        <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
 
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
+                        <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
+                        <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
                     </div>
                 </div>
             </div>
