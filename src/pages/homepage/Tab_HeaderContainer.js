@@ -4,13 +4,13 @@ import FeatureCard from '../../templetes/FeatureCard'
 import TempleteCard from '../../templetes/TempleteCard'
 
 
-const Tab_HeaderContainer = () => {
-// heade...
+const Tab_HeaderContainer = (props) => {
+
     return (
         <React.Fragment>
-                <Merchant_UserMess/>
-                <FeatureCard/>
-                <TempleteCard/>
+            <Merchant_UserMess dataMessage={props.dataMessage} dataSell={props.dataSell} />
+            <FeatureCard />
+            <TempleteCard />
         </React.Fragment>
     )
 }
