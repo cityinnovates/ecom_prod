@@ -7,9 +7,7 @@ import HomePageContainer from './pages/homepage/HomePageContainer';
 import ProductBuilder from './pages/product/ProductBuilder';
 import ManageStore from './pages/orders/ManageStore';
 
-
 function App() {
-
   return (
      <React.Fragment>
       <div className='App wrapper'>
@@ -17,7 +15,6 @@ function App() {
             <BrowserRouter>
                 <Dashbord_Header/>
                 <Dashbord_SideBarMenu/>
-
                 <Routes>
                   <Route path='/' element={<HomePageContainer/>}/>
                   <Route path='/product_builder' element={<ProductBuilder/>}/>

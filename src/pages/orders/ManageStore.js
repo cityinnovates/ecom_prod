@@ -2,18 +2,24 @@
 import React from 'react'
 
 const ManageStore = () => {
+
+ const commentIcon ={
+        fontSize: "10px",
+        fontWeight:"100",
+        }
+
     return (
         <React.Fragment>
             <div className="content-wrapper">
                 <div className="container">
-                    {/* manage orders */}
+                    {/* manage order bannaer*/}
                     <div className="content-header">
-                        <div className="row p-5">
+                        <div className="row px-md-5 my-2">
                             <div className="col-md-4">
                                 <img src="/images/manage-store.svg" className="img-fluid rounded-start" alt="manage-store-logo" />
                             </div>
                             <div className="col-md-8">
-                                <div className='my-3 mx-5'>
+                                <div className='my-3 mx-md-4'>
                                     <h4 className="fs-2">Manage your store orders
                                         with ease</h4>
                                     <p className="text-secondary">View order information, invoices, payment status and related shipping actions.</p>
@@ -26,23 +32,36 @@ const ManageStore = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div className='row px-5'>
-                        <div classname="col-md-6">
-
-                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-                            <label class="btn btn-outline-info bg-white" for="btnradio1">Store orders</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"/>
-                            <label class="btn btn-outline-primary" for="btnradio2">Domestic orders</label>
-
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"/>
-                            <label class="btn btn-outline-primary" for="btnradio3">International orders</label>
+                        {/* manage store tab */}
+                        <div className='row px-md-5 my-2'>
+                            <div className="col-md-8 btn-group" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" className="btn-check" name="btnradio" id="btnradio1" autoComplete="off" />
+                                <label className="btn btn-outline-info rounded-start fw-normal" htmlFor="btnradio1">Store orders
+                                </label>
+                                <input type="radio" className="btn-check" name="btnradio" id="btnradio2" autoComplete="off" />
+                                <label className="btn btn-outline-info fw-normal" htmlFor="btnradio2">Domestic orders</label>
+                                <input type="radio" className="btn-check" name="btnradio" id="btnradio3" autoComplete="off" />
+                                <label className="btn btn-outline-info fw-normal" htmlFor="btnradio3">International orders</label>
+                            </div>
                         </div>
-                         
-                        </div>
+
+                        {/* bellow manage tab */}
+                       <div className='row px-md-5 my-2'>
+                            <div className="">
+                                <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" />
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    Allow customer order note
+                                    <span className="mx-2">
+                                    <a href="#" data-toggle="tooltip" data-placement="top" title="You can find your customer order note in your order invoice">
+                                        <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                                        </i>
+                                    </a>
+                                </span>
+                                </label>
+                            </div>
+                       </div>
+
+
                     </div>
                 </div>
             </div>
