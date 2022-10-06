@@ -2,7 +2,7 @@
 import React from 'react'
 
 const ManageStore = () => {
-
+// menage store
  const commentIcon ={
         fontSize: "10px",
         fontWeight:"100",
