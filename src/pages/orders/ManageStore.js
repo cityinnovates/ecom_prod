@@ -1,10 +1,6 @@
 
 import React from 'react'
 
-//test commit
-// second test commit
-// third commit.....
-
 const ManageStore = () => {
     return (
         <React.Fragment>
@@ -32,23 +28,20 @@ const ManageStore = () => {
                         </div>
                     </div>
                     
-                    <div className='row p-5'>
+                    <div className='row px-5'>
                         <div classname="col-md-6">
-                            <div className="btn btn-outline-light">
-                                <a className="text-secondary" href='#'>
-                                Store orders
-                                </a>
-                            </div>
-                            <div className="btn btn-outline-light">
-                                <a className="text-secondary" href='#'>
-                                Domestic orders
-                                </a>
-                            </div>
-                            <div className="btn btn-outline-light">
-                                <a className="" href='#'>
-                                International orders
-                                </a>
-                            </div>
+
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
+                            <label class="btn btn-outline-info bg-white" for="btnradio1">Store orders</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off"/>
+                            <label class="btn btn-outline-primary" for="btnradio2">Domestic orders</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off"/>
+                            <label class="btn btn-outline-primary" for="btnradio3">International orders</label>
+                        </div>
+                         
                         </div>
                     </div>
                 </div>
