@@ -26,7 +26,7 @@ const ProductOption = () => {
             <p className='text-secondary'>Add options if this product comes in different colours or sizes.</p>
             <label htmlFor="" className='font-weight-light'>Options
               <span className="mx-2">
-                <a href="#" data-toggle="tooltip" data-placement="top" title='This is about options'>
+                <a href="/" data-toggle="tooltip" data-placement="top" title='This is about options'>
                   <i style={myStyle.commentIcon} className="fa fa-commenting-o text-secondary" aria-hidden="true">
                   </i>
                 </a>
@@ -52,18 +52,16 @@ const ProductOption = () => {
               </div>
             </div>
             
-  
-
           <div className="form-group mt-4 col-12">
             <label htmlFor="" className='font-weight-light'>Options
             <span className="mx-2">
-                <a href="#">
+                <a href="/">
                   <i style={myStyle.commentIcon} className="fa fa-pencil text-secondary" aria-hidden="true">
                   </i>
                 </a>
               </span>
               <span className="">
-                <a href="#" data-toggle="tooltip" data-placement="top" title='This is how will appeared on product page'>
+                <a href="/" data-toggle="tooltip" data-placement="top" title='This is how will appeared on product page'>
                   <i style={myStyle.commentIcon} className="fa fa-commenting-o text-secondary" aria-hidden="true">
                   </i>
                 </a>

@@ -16,8 +16,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Producs Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                                <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondary'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>
@@ -32,8 +32,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Products Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                                <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondaryt'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>
@@ -48,8 +48,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Products Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                                <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondary'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>
@@ -64,8 +64,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Products Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                               <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondary'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>
@@ -79,8 +79,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Products Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                                <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondary'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>
@@ -94,8 +94,8 @@ const FeatureCard = () => {
                                                 <i className="fa fa-shopping-bag" style={{ fontSize: "1.2rem", margin: "1rem", color: "#17a2b8" }}></i>
                                             </div>
                                             <div className='col-10'>
-                                                <h4>Add Products Now</h4>
-                                                <p>Start creating your catalogue</p>
+                                                <h5 className='fw-normal fs-6'>Add Products Now</h5>
+                                                <p className='lh-1 text-secondary'>Start creating your catalogue</p>
                                             </div>
                                         </div>
                                     </div>

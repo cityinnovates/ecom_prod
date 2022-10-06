@@ -14,7 +14,7 @@ const Taxes = () => {
           <div className='col-md-6'>
               <label htmlFor="gst" className='font-weight-light'>GST
                 <span className="mx-2">
-                  <a href="#" data-toggle="tooltip" data-placement="top" title='This is about taxes'>
+                  <a href="/" data-toggle="tooltip" data-placement="top" title='This is about taxes'>
                     <i style={commentIcon} className="fa fa-commenting-o text-secondary" aria-hidden="true">
                     </i>
                   </a>

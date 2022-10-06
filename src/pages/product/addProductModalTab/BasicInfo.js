@@ -30,7 +30,7 @@ export default function BasicInfo() {
                     <div className="col-md-4 bg-light">
                         <div className="text-center pt-5 pb-2">
                             <div>
-                                <img src="images/cloud-upload.png" style={myStyle.imageStyle}>
+                                <img src="images/cloud-upload.png" style={myStyle.imageStyle} alt='image upload logo'>
                                 </img>
                             </div>
                             <p>Drop an image here to upload</p>
@@ -47,7 +47,7 @@ export default function BasicInfo() {
                         <div className="form-group">
                             <label className="font-weight-normal" htmlFor="productName">Product name
                                 <span className="mx-2">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title={titleDis.productDis}>
+                                    <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.productDis}>
                                         <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                         </i>
                                     </a>
@@ -60,7 +60,7 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="sellPrice">Selling price
                                     <span className="mx-2">
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title={titleDis.selligPri}>
+                                        <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.selligPri}>
                                             <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                             </i>
                                         </a>
@@ -77,7 +77,7 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="originalPrice">Original price(optional)
                                     <span className="mx-2">
-                                        <a href="#" data-toggle="tooltip" data-placement="auto" title={titleDis.selligPri}>
+                                        <a href="/" data-toggle="tooltip" data-placement="auto" title={titleDis.selligPri}>
                                             <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                             </i>
                                         </a>
@@ -95,7 +95,7 @@ export default function BasicInfo() {
                         <div className="form-group mt-3">
                             <label className="font-weight-normal" htmlFor="productDes">Product description(optional)
                             <span className="mx-2">
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="Describe about your product feature">
+                                        <a href="/" data-toggle="tooltip" data-placement="top" title="Describe about your product feature">
                                             <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                             </i>
                                         </a>
@@ -107,7 +107,7 @@ export default function BasicInfo() {
                         <div className="form-group">
                             <label className="font-weight-normal" htmlFor="category">Category
                                 <span className="mx-2">
-                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Type the product category">
+                                    <a href="/" data-toggle="tooltip" data-placement="top" title="Type the product category">
                                         <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                         </i>
                                     </a>
@@ -120,7 +120,7 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="totalStock">Total stock quantity
                                     <span className="mx-2">
-                                        <a href="#" data-toggle="tooltip" data-placement="top" title="This about total stock Quentity">
+                                        <a href="/" data-toggle="tooltip" data-placement="top" title="This about total stock Quentity">
                                             <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                             </i>
                                         </a>
@@ -134,14 +134,14 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="originalPrice">SKU (optional)
                                     <span className="mx-2">
-                                        <a href="#" data-toggle="tooltip" data-placement="auto" title="This about SKU">
+                                        <a href="/" data-toggle="tooltip" data-placement="auto" title="This about SKU">
                                             <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
                                             </i>
                                         </a>
                                     </span>
                                 </label>
                                 <div className="input-group pl-md-1">
-                                    <input type="text" className="form-control" id="originalPrice" />
+                                    <input type="text" className="form-control" id="originalPrice"/>
                                 </div>
                             </div>
                         </div>

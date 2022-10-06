@@ -8,7 +8,7 @@ const Dashbord_SideBarMenu = () => {
       {/* Main Sidebar Container */}
       <aside className="main-sidebar sidebar-light-primary elevation-4">
         {/* Brand Logo */}
-          <a href="#" className="brand-link">
+          <a href="/" className="brand-link">
           <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
           <span className="brand-text font-weight-light">Ecom Prod Web</span>
         </a>
@@ -38,20 +38,20 @@ const Dashbord_SideBarMenu = () => {
 
               </li>
               <li className="nav-item">
-                <a href='#' className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-user-o" />
                   <p>Customers</p>
                 </a>
               </li>
 
               <li className="nav-item">
-                <a href='#' className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-percent" />
                   <p>Discounts</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href='#' className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-sliders" />
                   <p>Setup <i className="fa fa-angle-right right" /></p>
                 </a>
@@ -60,25 +60,25 @@ const Dashbord_SideBarMenu = () => {
               <li className="nav-header">SALES CHANNELS</li>
 
               <li className="nav-item">
-                <a href='#' className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-comments" />
                   <p>Chat<i className="fa fa-angle-right right" /></p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href='#'className="nav-link">
+                <a href="/"className="nav-link">
                   <i className="nav-icon fa fa-thumbs-up" />
                   <p>Social<i className="fa fa-angle-right right" /></p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href='#' className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-handshake-o" />
                   <p>Marketplaces<i className="fa fa-angle-right right" /></p>
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="/" className="nav-link">
                   <i className="nav-icon fa fa-film" />
                   <p>Webstore<i className="fa fa-angle-right right" /></p>
                 </a>

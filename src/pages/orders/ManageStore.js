@@ -24,7 +24,7 @@ const ManageStore = () => {
                                         with ease</h4>
                                     <p className="text-secondary">View order information, invoices, payment status and related shipping actions.</p>
                                     <div className="btn btn-outline-light">
-                                        <a className="text-secondary" href='#' target="_blank">
+                                        <a className="text-secondary" href="/" target="_blank">
                                             <i className="fa fa-lightbulb-o mr-2" aria-hidden="true"></i>
                                             Learn more
                                         </a>
@@ -47,26 +47,28 @@ const ManageStore = () => {
 
                         {/* bellow manage tab */}
                        <div className='row px-md-5 my-2'>
-                            <div className=" col-4 px-4">
-                                <input className="form-check-input" type="checkbox" defaultValue id="order-note" />
-                                <label className="form-check-label mx-2" htmlFor="order-note">
+                            <div className="px-4">
+                                <input className="form-check-input" type="checkbox" defaultValue id="order-note" /> 
+                                <label className="form-check-label mx-2 text-secondary" htmlFor="order-note">
                                     Allow customer order note
                                     <span className="mx-2">
                                     <a href="#" data-toggle="tooltip" data-placement="top" title="You can find your customer order note in your order invoice">
-                                        <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                                        <i className="fa fa-commenting-o text-secondary"            aria-hidden="true" style={commentIcon}>
                                         </i>
                                     </a>
                                 </span>
                                 </label>
                             </div>
-                            <div className='col-8'>
-                                 <div> 
-  
-                                 </div>
+
+                            <div className='text-secondary'>
+                                <div> 
+                                    <i className="fa fa-upload" aria-hidden="true"></i>
+                                    <span className='px-2'> Export Orders</span>
+                                </div>
                             </div>
+                         
+                         
                        </div>
-
-
                     </div>
                 </div>
             </div>

@@ -68,7 +68,7 @@ const Setting = () => {
             <h5 className='font-weight-normal'>Inventory</h5>
           <label className="font-weight-normal text-secondary" htmlFor="productDes">UPC (optional)
             <span className="mx-2">
-              <a href="#" data-toggle="tooltip" data-placement="top" title="This is about Universal Product code(UPC)">
+              <a href="/" data-toggle="tooltip" data-placement="top" title="This is about Universal Product code(UPC)">
                 <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
                 </i>
               </a>

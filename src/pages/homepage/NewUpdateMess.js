@@ -6,7 +6,6 @@ const NewUpdateMess = () => {
             
             {/* alert message */}
                 <div className="content-header">
-                   
                     <div className="container">
                         <div className="row">
                             <div className="col">

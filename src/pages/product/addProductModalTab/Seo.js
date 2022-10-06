@@ -13,7 +13,7 @@ const Seo = () => {
                 <div className="form-group">
                     <label className="font-weight-normal text-secondary" htmlFor="">Page title
                         <span className="mx-2">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
+                            <a href="/" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
                                 <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
                                 </i>
                             </a>
@@ -25,7 +25,7 @@ const Seo = () => {
                 <div className="form-group">
                     <label className="font-weight-normal text-secondary" htmlFor="productDes">Meta description
                         <span className="mx-2">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
+                            <a href="/" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
                                 <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
                                 </i>
                             </a>
@@ -36,7 +36,7 @@ const Seo = () => {
                 <div className="from-group">
                         <label className="font-weight-normal text-secondary" htmlFor="">URL
                         <span className="mx-2">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="This about URL preview">
+                            <a href="/" data-toggle="tooltip" data-placement="top" title="This about URL preview">
                                 <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
                                 </i>
                             </a>
