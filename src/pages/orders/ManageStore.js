@@ -33,7 +33,7 @@ const ManageStore = () => {
                             </div>
                         </div>
                         {/* manage store tab */}
-                        <div className='row px-md-5 my-2'>
+                        <div className='row px-md-5 mt-4'>
                             <div className="col-md-8 btn-group" role="group" aria-label="Basic radio toggle button group">
                                 <input type="radio" className="btn-check" name="btnradio" id="btnradio1" autoComplete="off" />
                                 <label className="btn btn-outline-info rounded-start fw-normal" htmlFor="btnradio1">Store orders
@@ -47,9 +47,9 @@ const ManageStore = () => {
 
                         {/* bellow manage tab */}
                        <div className='row px-md-5 my-2'>
-                            <div className="">
-                                <input className="form-check-input" type="checkbox" defaultValue id="flexCheckDefault" />
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
+                            <div className=" col-4 px-4">
+                                <input className="form-check-input" type="checkbox" defaultValue id="order-note" />
+                                <label className="form-check-label mx-2" htmlFor="order-note">
                                     Allow customer order note
                                     <span className="mx-2">
                                     <a href="#" data-toggle="tooltip" data-placement="top" title="You can find your customer order note in your order invoice">
@@ -58,6 +58,11 @@ const ManageStore = () => {
                                     </a>
                                 </span>
                                 </label>
+                            </div>
+                            <div className='col-8'>
+                                 <div> 
+  
+                                 </div>
                             </div>
                        </div>
 
