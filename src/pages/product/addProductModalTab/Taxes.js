@@ -1,12 +1,6 @@
 import React from 'react'
 
 const Taxes = () => {
- 
-  const commentIcon ={
-    fontSize: "10px",
-    fontWeight:"100",
-    }
-
   return (
     <React.Fragment>
       <form className='container mt-4'>
@@ -15,7 +9,7 @@ const Taxes = () => {
               <label htmlFor="gst" className='font-weight-light'>GST
                 <span className="mx-2">
                   <a href="/" data-toggle="tooltip" data-placement="top" title='This is about taxes'>
-                    <i style={commentIcon} className="fa fa-commenting-o text-secondary" aria-hidden="true">
+                    <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                     </i>
                   </a>
                 </span>

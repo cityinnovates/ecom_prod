@@ -1,12 +1,6 @@
 import React from "react";
 
 const Seo = () => {
-
-    const commentIcon = {
-        fontSize: "10px",
-        fontWeight: "100",
-    }
-
     return (
         <React.Fragment>
             <form className="container mt-4">
@@ -14,7 +8,7 @@ const Seo = () => {
                     <label className="font-weight-normal text-secondary" htmlFor="">Page title
                         <span className="mx-2">
                             <a href="/" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
-                                <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                                <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                 </i>
                             </a>
                         </span>
@@ -26,18 +20,18 @@ const Seo = () => {
                     <label className="font-weight-normal text-secondary" htmlFor="productDes">Meta description
                         <span className="mx-2">
                             <a href="/" data-toggle="tooltip" data-placement="top" title="This about meta Discription">
-                                <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                                <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                 </i>
                             </a>
                         </span>
                     </label>
-                    <textarea className="form-control" id="productDes" rows={3} defaultValue={""} style={{ resize: "none" }} />
+                    <textarea className="form-control" id="productDes" rows={3} style={{ resize: "none" }} />
                 </div>
                 <div className="from-group">
                         <label className="font-weight-normal text-secondary" htmlFor="">URL
                         <span className="mx-2">
                             <a href="/" data-toggle="tooltip" data-placement="top" title="This about URL preview">
-                                <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                                <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true" >
                                 </i>
                             </a>
                         </span>

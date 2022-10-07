@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 
-const Dashbord_SideBarMenu = () => {
+const DashbordSideBarMenu = () => {
   return (
 
     <React.Fragment>
@@ -12,15 +12,15 @@ const Dashbord_SideBarMenu = () => {
           <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
           <span className="brand-text font-weight-light">Ecom Prod Web</span>
         </a>
-      
+        
         <div className="sidebar">
           {/* Sidebar Menu */}
           <nav className="mt-3">
             <ul className="nav nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
               <li className="nav-item"> 
                  <Link to='/' className="nav-link">
-                          <i className="nav-icon fa fa-home" />
-                          <p>Home</p>
+                      <i className="nav-icon fa fa-home" />
+                      <p>Home</p>
                   </Link>
               </li>
               
@@ -93,4 +93,4 @@ const Dashbord_SideBarMenu = () => {
   )
 }
 
-export default Dashbord_SideBarMenu;
+export default DashbordSideBarMenu;

@@ -2,12 +2,6 @@
 import React from 'react'
 
 const Setting = () => {
-
-  const commentIcon = {
-    fontSize: "10px",
-    fontWeight: "100",
-  }
-
   return (
     <React.Fragment>
       <form className="container mt-4">
@@ -69,7 +63,7 @@ const Setting = () => {
           <label className="font-weight-normal text-secondary" htmlFor="productDes">UPC (optional)
             <span className="mx-2">
               <a href="/" data-toggle="tooltip" data-placement="top" title="This is about Universal Product code(UPC)">
-                <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={commentIcon}>
+                <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                 </i>
               </a>
             </span>

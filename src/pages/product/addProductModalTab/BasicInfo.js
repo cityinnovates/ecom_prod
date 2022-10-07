@@ -3,20 +3,13 @@ import React from "react";
 
 export default function BasicInfo() {
     let titleDis = {
-          productDis:"This is the unique display name of your product",
+          prodName:"This is the unique display name of your product",
           selligPri:"Selling price is the price for which you want the item to be sold. This is the amount of money you will receive from your customer when an item is purchased.", 
-    }
-
-    const myStyle ={
-        imageStyle:{
-            width: "6rem",
-            height: "6rem",
-            marginTop:"2rem",
-        },
-        commentIcon:{
-        fontSize: "10px",
-        fontWeight:"100",
-        }
+          oriPrice:"Original price is the full price of an item without taking into account any discounts or offers. List Price will be shown as strike through price.",
+          prodDis:"Describe your product and features and benefits clearly. This is the great place to write persuasive descriptions about your product.", 
+          catogory:"You can group products togather into categories to make them easier to manage or easier for your customers to discover. For example: Dresses, Pants, Accessories. A product can appear in more than one category.",
+          TotalStock:"This is the total number of items in stock. If the product options are added, the stock quantity will be automatically displayed as the sum of all of your products option.",
+          SKU:"Stock keeping Units(SKU) is a unique number assigned to a product to identify the price, product option, manufacturer. SKU help helps the product to be tracked for inventory."
 
     }
 
@@ -29,8 +22,8 @@ export default function BasicInfo() {
                     {/* image uploder */}
                     <div className="col-md-4 bg-light">
                         <div className="text-center pt-5 pb-2">
-                            <div>
-                                <img src="images/cloud-upload.png" style={myStyle.imageStyle} alt='image upload logo'>
+                            <div className="imageUplod">
+                                <img src="images/cloud-upload.png" alt='img-upload-logo'>
                                 </img>
                             </div>
                             <p>Drop an image here to upload</p>
@@ -43,12 +36,12 @@ export default function BasicInfo() {
                     </div>
                
                     {/*product details form */}
-                    <div className="col-md-8 text-secondary pl-md-4">
+                    <div className="proDetails col-md-8 text-secondary pl-md-4">
                         <div className="form-group">
                             <label className="font-weight-normal" htmlFor="productName">Product name
                                 <span className="mx-2">
-                                    <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.productDis}>
-                                        <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                    <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.prodName}>
+                                        <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                         </i>
                                     </a>
                                 </span>
@@ -61,7 +54,7 @@ export default function BasicInfo() {
                                 <label className="font-weight-normal" htmlFor="sellPrice">Selling price
                                     <span className="mx-2">
                                         <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.selligPri}>
-                                            <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                            <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                             </i>
                                         </a>
                                     </span>
@@ -77,8 +70,8 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="originalPrice">Original price(optional)
                                     <span className="mx-2">
-                                        <a href="/" data-toggle="tooltip" data-placement="auto" title={titleDis.selligPri}>
-                                            <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                        <a href="/" data-toggle="tooltip" data-placement="auto" title={titleDis.oriPrice}>
+                                            <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                             </i>
                                         </a>
                                     </span>
@@ -95,8 +88,8 @@ export default function BasicInfo() {
                         <div className="form-group mt-3">
                             <label className="font-weight-normal" htmlFor="productDes">Product description(optional)
                             <span className="mx-2">
-                                        <a href="/" data-toggle="tooltip" data-placement="top" title="Describe about your product feature">
-                                            <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                        <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.prodDis}>
+                                            <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                             </i>
                                         </a>
                                     </span>
@@ -107,8 +100,8 @@ export default function BasicInfo() {
                         <div className="form-group">
                             <label className="font-weight-normal" htmlFor="category">Category
                                 <span className="mx-2">
-                                    <a href="/" data-toggle="tooltip" data-placement="top" title="Type the product category">
-                                        <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                    <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.catogory}>
+                                        <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                         </i>
                                     </a>
                                 </span>
@@ -120,8 +113,8 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="totalStock">Total stock quantity
                                     <span className="mx-2">
-                                        <a href="/" data-toggle="tooltip" data-placement="top" title="This about total stock Quentity">
-                                            <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                        <a href="/" data-toggle="tooltip" data-placement="top" title={titleDis.TotalStock}>
+                                            <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                             </i>
                                         </a>
                                     </span>
@@ -134,8 +127,8 @@ export default function BasicInfo() {
                             <div className="col-md-6">
                                 <label className="font-weight-normal" htmlFor="originalPrice">SKU (optional)
                                     <span className="mx-2">
-                                        <a href="/" data-toggle="tooltip" data-placement="auto" title="This about SKU">
-                                            <i className="fa fa-commenting-o text-secondary" aria-hidden="true" style={myStyle.commentIcon}>
+                                        <a href="/" data-toggle="tooltip" data-placement="auto" title={titleDis.SKU}>
+                                            <i className="commentIcon fa fa-commenting-o text-secondary" aria-hidden="true">
                                             </i>
                                         </a>
                                     </span>
@@ -145,9 +138,7 @@ export default function BasicInfo() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                
                 </div>
             </form>
 

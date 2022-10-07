@@ -17,25 +17,29 @@ const ProductBuilder = () => {
       {/*main content- product_builder  */}
       <div className="content-wrapper">
         <div className="content-header">
-          <div className="card bg-white" style={{ maxWidth: '22rem', height: '100vh' }}>
-            <div className="card-header">
-              <div className='row text-center'>
-                <div className='col-6 border-right'>
-                  <NavLink to='#' className='text-secondary'>
-                    <i className="fa fa-plus-square-o mr-2" style={{ fontSize: "var(--fa_icon_fontSize)" }}></i>
-                    <span data-toggle="modal" data-target="#AddProductModal">Add products</span>
-                  </NavLink>
+          <div className='row'>
+            <div className='col-md-5'>
+              <div className="custom-card card bg-white">
+                <div className="card-header">
+                  <div className='row text-center'>
+                    <div className=' col-6 border-right'>
+                      <NavLink to='#' className='prod-text-icon'>
+                            <i className="fa fa-plus-square-o mx-2"></i>
+                           <span data-toggle="modal" data-target="#AddProductModal">Add products</span>
+                      </NavLink>
+                    </div>
 
-                </div>
-                <div className='col-6'>
-                  <NavLink to='#' className='text-secondary'>
-                    <i className="fa fa-arrow-circle-o-down mr-2" style={{ fontSize: "var(--fa_icon_fontSize)" }}></i>
-                    <span data-toggle="modal" data-target="#ImportProductModal">Import products</span>
-                  </NavLink>
+                    <div className='col-6'>
+                      <NavLink to='#' className='prod-text-icon'>
+                          <i className="fa fa-arrow-circle-o-down mx-2"></i>
+                        <span data-toggle="modal" data-target="#ImportProductModal">Import products
+                        </span>
+                      </NavLink>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="card-body">
+
             </div>
           </div>
         </div>
@@ -43,8 +47,8 @@ const ProductBuilder = () => {
 
 
       {/*add product modal */}
-      <div className="modal fade mt-4 ml-3" id="AddProductModal" tabIndex="{-1}" role="dialog" aria-labelledby="headingModal" aria-hidden="true">
-        <div className="modal-dialog modal-lg" role="document">
+      <div className="modal fade mt-4 ml-md-3" id="AddProductModal" tabIndex="{-1}" role="dialog" aria-labelledby="headingModal" aria-hidden="true">
+        <div className="modal-dialog modal-xl" role="document">
           <div className="modal-content" style={{border:"none"}}>
             <div className="modal-header bg-info">
               <h5 className="modal-title" id="headingModal">Add Product</h5>
@@ -54,11 +58,9 @@ const ProductBuilder = () => {
 
             {/* add product nav-tab */}
             <div className="modal-body">
-              
-                <ul className="nav nav-tabs justify-content-center" id="pills-tab" role="tablist">
-
-                  <li className="nav-item">
-                    <a className="nav-link active text-secondary" id="basic-info-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basic-info" aria-selected="true">Basic info</a>
+                <ul className="addProModal nav nav-tabs justify-content-center" id="pills-tab" role="tablist">
+                  <li className="mytab nav-item">
+                    <a className="nav-link text-secondary" id="basic-info-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basic-info" aria-selected="true">Basic info</a>
                   </li>
 
                   <li className="nav-item">
@@ -79,7 +81,8 @@ const ProductBuilder = () => {
                 </ul>
               
                 <div className="tab-content" id="pills-tabContent">
-                  <div className="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basic-info-tab"> {<BasicInfo/>}
+                  <div className="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basic-info-tab"> 
+                  {<BasicInfo/>}
                   </div>
 
                   <div className="tab-pane fade" id="productOption" role="tabpanel" aria-labelledby="product-option-tab">{<ProductOption />}

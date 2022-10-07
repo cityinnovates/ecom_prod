@@ -1,13 +1,58 @@
-body {
+
+.body{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: sans-serif, monospace, Arial, Helvetica;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* dashbord-header */
+.db-header-subsbtn{border: none; background-color:#17a2b8; border-radius: 0.3rem;margin: 0.4rem;}
+.db-header-subsbtn a{ color: #fff;}
+.db-header-help .fa{font-size: 1.5rem;color: #919eab;}
+.db-header-help .fa:hover{color:rgb(23, 162, 184);}
+.db-header-user .fa{font-size: 1.4rem; color: #919eab;}
+.db-header-user .fa:hover{color:rgb(23, 162, 184);}
+.db-header-left .fa{color: #919eab;}
+.db-header-left .fa:hover{color:rgb(23, 162, 184);}
+  
+/* side bar menu */
+.sidebar nav .nav-icon{color: #919eab}
+.sidebar nav .nav-item p{font-size: 0.9rem;}
+.brand-link .brand-text:hover{color:rgb(23, 162, 184);}
+
+/*tooltip control*/
+.tooltip-inner {
+  max-width: 15rem!important;
+  min-height: 100%;
+  font-size: 12px;
+  padding: 10px;
+  color: rgba(0, 0, 0, .7);
+  text-align: left;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+  background: #fff;
 }
+.tooltip.show {opacity: 1;}
+  
+/* new update message page*/
+.new-update-mg p{font-size: 13px;}
+.new-update-mg i{font-size: 1.5rem; color: #17a2b8;}
+
+/* product_builder */
+.custom-card{min-height: 85vh; }
+.custom-card .fa{font-size: 1.5rem;}
+.prod-text-icon{color: #919eab}
+.prod-text-icon:hover{color: #17a2b8}
+
+/* image uploader */
+.imageUplod img{width:6rem; height: 6rem; margin-top:2rem;}
+  
+/* Comment icon control */
+.commentIcon{font-size: 12px; font-weight: 100;}
+
+/* product option btn shadow */
+.prodOption-btnShadow{box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+.prodOption-btnShadow:focus{box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+.addProModal .nav-link.active{border-bottom: 2px solid #17a2b8;border-right: none; border-left: none; border-top: none;}
+.addProModal .nav-link:hover{border-color: #fff; border-bottom: 2px solid #17a2b8;}

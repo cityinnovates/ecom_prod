@@ -1,18 +1,17 @@
 import React from 'react'
-
-
-const Dashbord_Header = () => {
+const DashbordHeader = () => {
 
   return (
-
     <div>
 
       {/* Navbar */}
       <nav className="main-header navbar navbar-expand navbar-white navbar-light ">
         {/* Left navbar links */}
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" data-widget="pushmenu" href="/" role="button"><i className="fa fa-bars" /></a>
+          <li className="db-header-left nav-item">
+            <a className="nav-link" data-widget="pushmenu" href="/" role="button">
+              <i className="fa fa-bars" />
+            </a>
           </li>
         </ul>
 
@@ -21,14 +20,14 @@ const Dashbord_Header = () => {
 
           {/* subscribe button */}
           <li className="nav-item">
-            <button className='dashbord_header_subscribe_button'>
+            <button className='db-header-subsbtn'>
               <a href="/">Subscribe</a>
             </button>
           </li>
           {/* Help */}
-          <li className="nav-item dropdown">
+          <li className="db-header-help nav-item dropdown">
             <a className="nav-link" data-toggle="dropdown" href="/">
-              <i className="fa fa-question-circle-o" style={{ fontSize: "var(--fa_icon_fontSize)" }} />
+              <i className="fa fa-question-circle-o"/>
             </a>
             <div className="dropdown-menu dropdown-menu-sm dropdown-menu-right">
               <a href="/" className="dropdown-item">Support</a>
@@ -40,9 +39,9 @@ const Dashbord_Header = () => {
           </li>
 
           {/* user */}
-          <li className="nav-item dropdown">
+          <li className="db-header-user nav-item dropdown">
             <a className="nav-link" data-toggle="dropdown" href="/">
-              <i className="fa fa-user-circle-o" style={{ fontSize: "var(--fa_icon_fontSize)" }} />
+              <i className="fa fa-user-circle-o" />
             </a>
             <div className="dropdown-menu dropdown-menu-sm dropdown-menu-right">
               <a href="/" className="dropdown-item">My Profile</a>
@@ -59,4 +58,4 @@ const Dashbord_Header = () => {
   )
 }
 
-export default Dashbord_Header
+export default DashbordHeader
