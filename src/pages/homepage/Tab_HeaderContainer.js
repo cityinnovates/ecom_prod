@@ -9,8 +9,8 @@ const Tab_HeaderContainer = (props) => {
     return (
         <React.Fragment>
             <Merchant_UserMess dataMessage={props.dataMessage} dataSell={props.dataSell} />
-            <FeatureCard />
-            <TempleteCard />
+            <FeatureCard data={props.data} />
+            <TempleteCard datacard={props.datacard} />
         </React.Fragment>
     )
 }
