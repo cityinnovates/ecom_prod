@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const Merchant_UserMess = (props) => {
+const MerchantUserMess = (props) => {
 
 
     return (
@@ -29,4 +29,4 @@ const Merchant_UserMess = (props) => {
 }
 
 
-export default Merchant_UserMess
+export default MerchantUserMess

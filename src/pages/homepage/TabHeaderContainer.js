@@ -1,18 +1,18 @@
 import React from 'react'
-import Merchant_UserMess from './Merchant_UserMess'
+import MerchantUserMess from './MerchantUserMess'
 import FeatureCard from '../../templetes/FeatureCard'
 import TempleteCard from '../../templetes/TempleteCard'
 
 
-const Tab_HeaderContainer = (props) => {
+const TabHeaderContainer = (props) => {
 
     return (
         <React.Fragment>
-            <Merchant_UserMess dataMessage={props.dataMessage} dataSell={props.dataSell} />
+            <MerchantUserMess dataMessage={props.dataMessage} dataSell={props.dataSell} />
             <FeatureCard data={props.data} />
             <TempleteCard datacard={props.datacard} />
         </React.Fragment>
     )
 }
 
-export default Tab_HeaderContainer;
+export default TabHeaderContainer;

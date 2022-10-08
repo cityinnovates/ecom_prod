@@ -10,7 +10,7 @@ const ProductOption = () => {
   return (
     <React.Fragment>
 
-      <form className="container mt-4 pb-2">
+      <form className="container pb-2">
         <div className='form-group'>
             <h5 className='font-weight-normal'>Product options</h5>
             <p className='text-secondary'>Add options if this product comes in different colours or sizes.</p>

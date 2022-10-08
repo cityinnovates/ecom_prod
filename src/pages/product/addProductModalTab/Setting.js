@@ -4,7 +4,7 @@ import React from 'react'
 const Setting = () => {
   return (
     <React.Fragment>
-      <form className="container mt-4">
+      <form className="container">
         <div className="form-group">
             <h5 className='font-weight-normal'>Shipping details</h5>
             <p className='text-secondary'>Flat shipping fee in self-managed shipping options will be used if the fields below are incomplete.</p>

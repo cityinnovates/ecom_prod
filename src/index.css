@@ -54,5 +54,18 @@
 .prodOption-btnShadow{box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
 .prodOption-btnShadow:focus{box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
 
-.addProModal .nav-link.active{border-bottom: 2px solid #17a2b8;border-right: none; border-left: none; border-top: none;}
-.addProModal .nav-link:hover{border-color: #fff; border-bottom: 2px solid #17a2b8;}
+/* add and import product modal */
+.addProModal .nav-item .nav-link.active{background-color: #fff; border-bottom: 2px solid #17a2b8; border-radius: 0;}
+.addProModal .nav-item .nav-link{ padding: 0 !important;}
+.addProModal .nav-link:hover{border-bottom: 2px solid #17a2b8; border-radius: 0;}
+
+/* modal opacity control */
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+
+/* Dashbord nav Tab */
+.dbNavTab .nav-item .nav-link.active{background-color: #f4f6f9; border-bottom: 2px solid #17a2b8; border-radius: 0;}
+.dbNavTab .nav-item .nav-link{ padding: 0 !important;}
+.dbNavTab .nav-link:hover{border-bottom: 2px solid #17a2b8; border-radius: 0;}

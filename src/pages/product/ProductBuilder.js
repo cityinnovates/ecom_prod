@@ -22,7 +22,7 @@ const ProductBuilder = () => {
               <div className="custom-card card bg-white">
                 <div className="card-header">
                   <div className='row text-center'>
-                    <div className=' col-6 border-right'>
+                    <div className='col-6 border-right'>
                       <NavLink to='#' className='prod-text-icon'>
                             <i className="fa fa-plus-square-o mx-2"></i>
                            <span data-toggle="modal" data-target="#AddProductModal">Add products</span>
@@ -39,50 +39,56 @@ const ProductBuilder = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </div>
 
-
       {/*add product modal */}
       <div className="modal fade mt-4 ml-md-3" id="AddProductModal" tabIndex="{-1}" role="dialog" aria-labelledby="headingModal" aria-hidden="true">
-        <div className="modal-dialog modal-xl" role="document">
+        <div className="modal-dialog modal-lg" role="document">
           <div className="modal-content" style={{border:"none"}}>
-            <div className="modal-header bg-info">
-              <h5 className="modal-title" id="headingModal">Add Product</h5>
-              <button type="button" className="btn-close btn-close-white" data-dismiss="modal" aria-label="Close">
-              </button>
+            <div className="modal-header bg-info justify-content-between align-items-center py-2 border-bottom-0">
+                <span>
+                    <button type="button" className="btn-close btn-close-secondary" data-dismiss="modal" aria-label="Close"></button>
+                </span>
+                <span>
+                    <h5 className="modal-title fs-6 fw-normal" id="headingModal">Add Product</h5>
+                </span>
+                <span>
+                  <button type="button" className="btn btn-secondary px-3">Save</button>
+                </span> 
             </div>
 
             {/* add product nav-tab */}
             <div className="modal-body">
-                <ul className="addProModal nav nav-tabs justify-content-center" id="pills-tab" role="tablist">
-                  <li className="mytab nav-item">
-                    <a className="nav-link text-secondary" id="basic-info-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basic-info" aria-selected="true">Basic info</a>
+                <ul className="addProModal nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                  <li className="nav-item">
+                    <a className="nav-link text-secondary mx-3" id="basic-info-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basic-info" aria-selected="true">Basic info</a>
+                  </li> 
+
+                  <li className="nav-item">
+                    <a className="nav-link text-secondary mx-3" id="product-option-tab" data-toggle="tab" href="#productOption" role="tab" aria-controls="product-option" aria-selected="false">Product options</a>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link text-secondary" id="product-option-tab" data-toggle="tab" href="#productOption" role="tab" aria-controls="product-option" aria-selected="false">Product options</a>
+                    <a className="nav-link text-secondary mx-3" id="tax-tab" data-toggle="tab" href="#tax" role="tab" aria-controls="taxes" aria-selected="false">Taxes</a>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link text-secondary" id="tax-tab" data-toggle="tab" href="#tax" role="tab" aria-controls="taxes" aria-selected="false">Taxes</a>
+                    <a className="nav-link text-secondary mx-3" id="seo-tab" data-toggle="tab" href="#seo" role="tab" aria-controls="seo" aria-selected="false">SEO</a>
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link text-secondary" id="seo-tab" data-toggle="tab" href="#seo" role="tab" aria-controls="seo" aria-selected="false">SEO</a>
-                  </li>
-
-                  <li className="nav-item">
-                    <a className="nav-link text-secondary" id="more-setting-tab" data-toggle="tab" href="#moreSetting" role="tab" aria-controls="more-setting" aria-selected="false">More settings</a>
+                    <a className="nav-link text-secondary mx-3" id="more-setting-tab" data-toggle="tab" href="#moreSetting" role="tab" aria-controls="more-setting" aria-selected="false">More settings</a>
                   </li>
                 </ul>
-              
-                <div className="tab-content" id="pills-tabContent">
-                  <div className="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basic-info-tab"> 
-                  {<BasicInfo/>}
+                     {/* border bottom */}
+                <div className="border-bottom border-light-1"></div>
+
+                <div className="tab-content mt-4" id="pills-tabContent">
+                  <div className="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basic-info-tab">
+                    {<BasicInfo />}
                   </div>
 
                   <div className="tab-pane fade" id="productOption" role="tabpanel" aria-labelledby="product-option-tab">{<ProductOption />}
@@ -98,11 +104,7 @@ const ProductBuilder = () => {
                   </div>
                 </div>
             </div>
-
-            <div className="modal-footer">
-              <button type="button" className="btn btn-info">Save</button>
-            </div>
-
+      
           </div>
         </div>
       </div>
@@ -111,9 +113,9 @@ const ProductBuilder = () => {
       <div className="modal fade ml-2" id="ImportProductModal" tabIndex="-1" role="dialog" aria-labelledby="headingModal" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered" role="document">
           <div className="modal-content"  style={{border:"none"}}>
-            <div className="modal-header bg-info">
+            <div className="modal-header bg-info align-items-center py-2 border-bottom-0">
               <h5 className="modal-title" id="headingModal">Import Product from .csv</h5>
-              <button type="button" className="btn-close btn-close-white" data-dismiss="modal" aria-label="Close">
+              <button type="button" className="btn-close btn-close-secondary" data-dismiss="modal" aria-label="Close">
               </button>
             </div>
             <div className="modal-body">

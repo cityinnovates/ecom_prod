@@ -3,7 +3,7 @@ import React from 'react'
 const Taxes = () => {
   return (
     <React.Fragment>
-      <form className='container mt-4'>
+      <form className='container'>
         <div className='form-row'>
           <div className='col-md-6'>
               <label htmlFor="gst" className='font-weight-light'>GST

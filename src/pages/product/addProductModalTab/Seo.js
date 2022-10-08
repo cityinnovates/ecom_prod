@@ -3,7 +3,7 @@ import React from "react";
 const Seo = () => {
     return (
         <React.Fragment>
-            <form className="container mt-4">
+            <form className="container">
                 <div className="form-group">
                     <label className="font-weight-normal text-secondary" htmlFor="">Page title
                         <span className="mx-2">

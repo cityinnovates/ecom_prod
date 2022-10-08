@@ -16,7 +16,7 @@ export default function BasicInfo() {
     return (
         <React.Fragment>
 
-            <form className="container mt-4">
+            <form className="container">
                 <div className="form-row h-100">
 
                     {/* image uploder */}

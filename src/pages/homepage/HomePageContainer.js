@@ -1,14 +1,14 @@
 
 import React from "react";
 import NewUpdateMess from "./NewUpdateMess";
-import Tab_Header from "./Tab_Header";
+import TabHeader from "./TabHeader";
 
 const HomePageContainer =()=>{
     return(
         <React.Fragment>
             <div className="content-wrapper">
               <NewUpdateMess/>
-              <Tab_Header/>
+              <TabHeader/>
             </div>
         </React.Fragment>
     );
